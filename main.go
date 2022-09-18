@@ -62,6 +62,7 @@ func main() {
 				circle += 1
 				if circle > CIRCLE {
 					circle = circle % CIRCLE
+					fmt.Printf("%v :%d -> %d -> %d\n", time.Now(), circle2, circle, counter)
 					circle2 += 1
 					if circle2 > CIRCLE {
 						fmt.Printf("%v :%d -> %d -> %d\n", time.Now(), circle2, circle, counter)
