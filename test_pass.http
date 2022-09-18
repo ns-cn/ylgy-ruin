@@ -1,0 +1,4 @@
+POST http://gg.liujiaweixiaoman.cn/chabai/v1/
+content-type:application/json
+
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTQ2MjI3ODAsIm5iZiI6MTY2MzUyMDU4MCwiaWF0IjoxNjYzNTE4NzgwLCJqdGkiOiJDTTpjYXRfbWF0Y2g6bHQxMjM0NTYiLCJvcGVuX2lkIjoiIiwidWlkIjo5MDAwMDAsImRlYnVnIjoiIiwibGFuZyI6IiJ9.SkIX1RQ-i1A5ZOUnMbP7YTuSmFlaqidUxBe6PmCDFf8","type":0,"time":1}
