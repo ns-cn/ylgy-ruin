@@ -11,9 +11,8 @@ import (
 
 func main() {
 	fmt.Println("羊了个羊，毁灭吧！")
-	var available int64 = 10000000
-	var min = available
-	var max = available + 10
+	var min int64 = 1000000
+	var max int64 = 100000000
 	succeed := make(chan int64, 0)
 	lost := func() {
 		for {
@@ -110,7 +109,7 @@ func handle(uid int64) error {
 	// 请求
 	request := TokenRequest{
 		Type:  0,
-		Time:  233,
+		Time:  3,
 		Token: token.Msg,
 	}
 	url := "http://gg.liujiaweixiaoman.cn/chabai/v1/"
