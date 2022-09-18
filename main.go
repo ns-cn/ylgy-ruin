@@ -110,7 +110,7 @@ func handle(uid int64) error {
 	// 请求
 	request := TokenRequest{
 		Type:  0,
-		Time:  3,
+		Time:  233,
 		Token: token.Msg,
 	}
 	url := "http://gg.liujiaweixiaoman.cn/chabai/v1/"
