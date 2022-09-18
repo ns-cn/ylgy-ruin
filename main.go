@@ -10,9 +10,10 @@ import (
 )
 
 func main() {
-	var avilable int64 = 10000000
-	var min = avilable
-	var max = avilable + 10
+	fmt.Println("羊了个羊，毁灭吧！")
+	var available int64 = 10000000
+	var min = available
+	var max = available + 10
 	succeed := make(chan int64, 0)
 	lost := func() {
 		for {
