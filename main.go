@@ -20,8 +20,9 @@ func main() {
 			err := handle(uid)
 			if err == nil {
 				succeed <- uid
+			} else {
+				fmt.Println(err)
 			}
-
 		}
 	}
 	for i := 0; i < 10; i++ {
@@ -109,7 +110,7 @@ func handle(uid int64) error {
 	// 请求
 	request := TokenRequest{
 		Type:  0,
-		Time:  3,
+		Time:  rand.Intn(30*60) + 4*60,
 		Token: token.Msg,
 	}
 	url := "http://gg.liujiaweixiaoman.cn/chabai/v1/"

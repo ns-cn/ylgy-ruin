@@ -1,1 +1,6 @@
-http://gg.liujiaweixiaoman.cn/chabai/v1/?key=123456&uid=90000000
+GET http://gg.liujiaweixiaoman.cn/chabai/v1/?key=123456&uid=90000000
+
+
+###
+POST http://demo.ruoyi.vip/system/role/list
+Cookie: JSESSIONID=02a76a97-693d-4ab6-9a11-cba7fd8a15db
